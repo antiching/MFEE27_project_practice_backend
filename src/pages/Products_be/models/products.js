@@ -3,7 +3,7 @@ const pool = require('../utils/db');
 // fat controller vs fat model
 // controller - service - model
 
-
+//訂單細節頁
 async function getProductByProductId(productId) {
   let [data] = await pool.execute('SELECT * FROM products WHERE id = ?', [
     productId,
