@@ -1,0 +1,13 @@
+.account-breadcrumb {
+  // border: 1px solid palegoldenrod;
+  font-size: 13px;
+  height: 45px;
+  margin-bottom: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .account-breadcrumb {
+    height: 35px;
+    margin-bottom: 15px;
+  }
+}

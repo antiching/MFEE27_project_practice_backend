@@ -1,0 +1,40 @@
+//麵包屑
+nav{
+  --bs-breadcrumb-divider: '>';
+}
+
+.products_layout-breadcrumb-whole{
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+  margin-bottom:3em;
+}
+.products_layout-breadcrumb-detail-whole{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 32px 200px;
+  gap: 10px;
+  
+
+  width: 1920px;
+  height: 43px;
+  left: 0px;
+  top: 157px;
+  
+  background: #FFFFFF;
+}
+
+.products_layout-breadcrumb{
+  margin: auto 0px;
+}
+
+.products_layout-breadcrumb-item{
+  color:#7B7B7B;
+  font-size: 13px;
+  line-height: 19.5px;
+    a {
+      color:#7B7B7B;
+    }
+
+  }

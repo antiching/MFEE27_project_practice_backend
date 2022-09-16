@@ -1,0 +1,40 @@
+//側欄選單
+
+.products_layout-aside-accordion{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 80px;
+  gap: 16px;
+  max-width: 25%;
+  width: 100%;
+}
+
+.products_layout-aside-accordion-button:focus{
+    background: #fff;
+    text-decoration: none;
+  
+}
+.products_layout-aside-accordion-button:not(.collapsed){
+  color: #000;
+  background: #fff;
+  box-shadow: none;
+}
+.products_layout-aside-accordion-button{
+  width: 15rem;
+  text-align: left;
+  
+}
+.products_layout-aside-list-group-item{
+  width: 10rem;
+  border: none ;
+  a{
+    color:#000;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width:992px) {
+  .products_layout-aside-accordion{
+    display: none;
+  }
+}

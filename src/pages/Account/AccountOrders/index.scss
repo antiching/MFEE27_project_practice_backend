@@ -1,0 +1,31 @@
+.account_orders {
+  padding: 50px;
+  &-table {
+    border: 1px solid #dddddd;
+    font-size: 14px;
+  }
+  &-mobile {
+    display: none;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .account_orders {
+    padding: 35px;
+    &-table {
+      display: none;
+    }
+    &-mobile {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .account_orders {
+    padding: 20px;
+  }
+}

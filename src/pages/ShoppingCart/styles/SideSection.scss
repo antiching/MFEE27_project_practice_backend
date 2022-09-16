@@ -1,0 +1,38 @@
+.cart_em {
+  font-style: normal;
+}
+
+.cart_card {
+  padding: 16px;
+  border-radius: 10px;
+border: 1px solid #E2E2E2;
+
+  span {
+    font-size: 13px;
+  }
+
+  a {
+    height: 24px;
+    width: 24px;
+  }
+  .cart_product {
+    font-weight: bold;
+  }
+}
+
+.cart_title {
+  font-size: 18px;
+}
+
+.cart_total {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+
+.cart_card_side_tablet{
+  display: none;
+}
+
+
+}

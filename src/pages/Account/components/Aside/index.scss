@@ -1,0 +1,21 @@
+.account_aside {
+  width: 250px;
+  &-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  &-list {
+    width: 80%;
+    font-size: 14px;
+    line-height: 14px;
+    & li {
+      border-bottom: 1px solid #e2e2e2;
+      padding: 20px 0;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .account_aside {
+    display: none;
+  }
+}

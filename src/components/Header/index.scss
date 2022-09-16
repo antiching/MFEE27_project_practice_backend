@@ -1,0 +1,39 @@
+.header {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  &-highlight {
+    height: 43px;
+    @media screen and (max-width: 768px) {
+      height: 30px;
+    }
+  }
+}
+.logo-container {
+  height: 86px;
+  position: relative;
+}
+.logo {
+  height: 60px;
+  width: 180px;
+}
+.header-nav {
+  height: 58px;
+  display: flex;
+  &-links {
+    gap: 100px;
+    @media screen and (max-width: 992px) {
+      gap: 80px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+}
+.icon-box {
+  font-size: 26px;
+  position: absolute;
+  gap: 15px;
+  top: 25px;
+  right: 40px;
+}

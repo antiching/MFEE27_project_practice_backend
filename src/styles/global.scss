@@ -1,0 +1,28 @@
+// 所有頁面都會用到的放在這裡
+// 這裡導入所有要預設變數覆蓋
+$primary: #9aab82;
+$secondary: #e2e2e2;
+
+//table
+$table-cell-padding-y: 1rem;
+$table-cell-padding-x: 1rem;
+$table-cell-padding-y-sm: 0.5rem;
+$table-cell-padding-x-sm: 0.5rem;
+
+// 導入bootstrap所有的樣式與預設變數
+@import '~bootstrap/scss/bootstrap';
+
+// 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面
+// 全站都會使用的共同樣式
+@import './reset.scss';
+// *{
+//   border: 1px  solid red;
+// }
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

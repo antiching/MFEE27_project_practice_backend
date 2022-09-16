@@ -1,0 +1,51 @@
+@mixin cart_btn-large($w, $h) {
+  width: $w;
+  height: $h;
+  border: 2px solid #9aab82;
+  border-radius: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@mixin cart_input($w, $h) {
+  width: calc(100% - $w);
+  height: $h;
+  border: #dddddd 1px solid;
+  border-radius: 5px;
+}
+
+
+.cart_btn_large {
+  @include cart_btn-large(400px, 60px);
+}
+
+@media screen and (max-width: 768px) {
+
+.cart_btn_large {
+  @include cart_btn-large(100%, 60px);
+}
+}
+
+.cart_fee {
+  color: #9aab82;
+}
+
+.cart_credit_card input {
+ @include cart_input(95%, 0px);
+  width: calc(100% - 0px);
+  height: 40px;
+}
+
+.cart_member input {
+  @include cart_input(100px, 40px);
+}
+
+.cart_ship .cart_shipping_term input {
+  width: 24px;
+}
+
+.cart_ship input {
+  @include cart_input(95%, 0px);
+  width: calc(100% - 0px);
+  height: 40px;
+}

@@ -1,0 +1,19 @@
+nav{
+  --bs-breadcrumb-divider: '>';
+}
+.product_detail-breadcrumb-detail-whole{
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+.product_detail-breadcrumb-item{
+  color:#7B7B7B;
+  font-size: 13px;
+  line-height: 19.5px;
+    a {
+      color:#7B7B7B;
+      text-decoration: none;
+    }
+
+  }

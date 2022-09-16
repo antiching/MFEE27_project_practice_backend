@@ -1,0 +1,34 @@
+.account_tracking {
+  padding: 50px;
+  &-product {
+    width: 80%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 10px;
+    &-content {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+  img {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .account_tracking {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    &-product {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .account_tracking {
+    padding: 20px;
+  }
+}

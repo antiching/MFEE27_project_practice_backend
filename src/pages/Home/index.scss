@@ -1,0 +1,76 @@
+.home_banner {
+  width: 100%;
+}
+
+.home_block {
+  width: 32%;
+}
+
+.home_title {
+  font-size: 24px;
+}
+
+.home_recipe_pic {
+  border-radius: 10px;
+  width: 235px;
+  height: 175px;
+}
+
+.home_read {
+  font-size: 14px;
+  color: #7b7b7b;
+}
+
+.home_h1 {
+  font-size: 84px;
+  text-align: center;
+  color: #dddddd;
+}
+.home_h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #dddddd;
+}
+.home_h3 {
+  font-size: 36px;
+  text-align: center;
+  color: #dddddd;
+}
+
+@media screen and (max-width: 768px) {
+  .home_block_1 {
+    flex-grow: 1;
+    padding-top: 16px;
+  }
+  .home_block_2 {
+    display: none;
+  }
+
+  .home_block_3 {
+    display: none;
+  }
+
+  .home_h1 {
+    font-size: 32px;
+  }
+  .home_h2 {
+    font-size: 24px;
+  }
+
+  .home_h3 {
+    font-size: 16x;
+  }
+}
+
+.home_ad {
+  width: 30%;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .home_ad {
+    width: 100%;
+    height: 170px;
+  }
+}
+

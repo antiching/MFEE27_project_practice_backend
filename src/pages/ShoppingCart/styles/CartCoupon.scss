@@ -1,0 +1,23 @@
+@mixin cart_input($w, $h) {
+ width: calc(100% - $w);
+  height: 40px;
+  border: #dddddd 1px solid;
+  border-radius: 5px;
+}
+
+
+.cart_btn_md {
+  background-color: #abb4bb;
+  border-radius: 5px;
+  border: transparent;
+  color: white;
+  height: 40px;
+}
+
+.cart_coupon input {
+ @include cart_input(100px,60px )
+}
+
+.cart_subtitle{
+  font-size: 14px;
+}

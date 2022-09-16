@@ -1,0 +1,52 @@
+.account_info {
+  padding: 50px;
+  &-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+
+    &-name {
+      font-size: 20px;
+    }
+    &-left {
+      width: 25%;
+    }
+    &-right {
+      border-left: 1px solid #ddd;
+      padding: 10px 20px;
+      width: 75%;
+    }
+    &-text {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .account_info {
+    padding: 35px;
+    &-card {
+      flex-direction: column;
+      &-left {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      &-right {
+        padding: 10px 0;
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid #ddd;
+      }
+      &-text {
+        margin-bottom: 15px;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .account_info {
+    padding: 20px;
+  }
+}
